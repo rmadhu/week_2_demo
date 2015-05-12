@@ -1,3 +1,4 @@
 class User < ActiveRecord::Base
-  attr_accessible :movie, :name
+  has_many :cars
+  #attr_accessible :movie, :name
 end
